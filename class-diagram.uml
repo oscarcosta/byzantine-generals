@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="737.5" y="917.5">com.byzantinegenerals.ByzantineGenerals</node>
+    <node x="551.5" y="757.5">com.byzantinegenerals.Order</node>
+    <node x="395.0" y="104.5">com.byzantinegenerals.Officer</node>
+    <node x="63.5" y="424.5">com.byzantinegenerals.Message</node>
+    <node x="755.0" y="359.5">com.byzantinegenerals.General</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.byzantinegenerals.General" target="com.byzantinegenerals.Message">
+      <point x="-125.0" y="0.0" />
+      <point x="96.5" y="0.0" />
+    </edge>
+    <edge source="com.byzantinegenerals.ByzantineGenerals" target="com.byzantinegenerals.Order">
+      <point x="-142.5" y="-26.66666666666663" />
+      <point x="600.0" y="933.3333333333334" />
+      <point x="0.0" y="42.5" />
+    </edge>
+    <edge source="com.byzantinegenerals.Officer" target="com.byzantinegenerals.Message">
+      <point x="0.0" y="-55.5" />
+      <point x="520.0" y="40.0" />
+      <point x="200.0" y="40.0" />
+      <point x="40.0" y="-55.5" />
+    </edge>
+    <edge source="com.byzantinegenerals.General" target="com.byzantinegenerals.Officer">
+      <point x="-40.0" y="-120.5" />
+      <point x="840.0" y="160.0" />
+      <point x="125.0" y="0.0" />
+    </edge>
+    <edge source="com.byzantinegenerals.General" target="com.byzantinegenerals.Order">
+      <point x="-40.0" y="120.5" />
+      <point x="840.0" y="800.0" />
+      <point x="48.5" y="0.0" />
+    </edge>
+    <edge source="com.byzantinegenerals.Message" target="com.byzantinegenerals.Order">
+      <point x="-96.5" y="0.0" />
+      <point x="0.0" y="480.0" />
+      <point x="0.0" y="800.0" />
+      <point x="-48.5" y="0.0" />
+    </edge>
+    <edge source="com.byzantinegenerals.ByzantineGenerals" target="com.byzantinegenerals.General">
+      <point x="142.5" y="0.0" />
+      <point x="1080.0" y="960.0" />
+      <point x="1080.0" y="480.0" />
+      <point x="125.0" y="0.0" />
+    </edge>
+    <edge source="com.byzantinegenerals.Message" target="com.byzantinegenerals.Officer">
+      <point x="96.5" y="-40.0" />
+      <point x="480.0" y="440.0" />
+      <point x="-40.0" y="55.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.7000000000000001" x="146.625" y="543.5000000000001" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>public</VISIBILITY>
+</Diagram>
+
